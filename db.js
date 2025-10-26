@@ -2,7 +2,7 @@ const mysql = require("mysql2/promise");
 
 // 🔹 Create pool with promise wrapper
 const pool = mysql.createPool({
-  host: "127.0.0.1:3306",
+  host: "mysql.hostinger.in",
   user: "u174854131_pharmacy_db",
   password: "dka0H/A1",
   database: "u174854131_pharmacy_db",
