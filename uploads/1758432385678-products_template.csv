@@ -1,0 +1,3 @@
+name,category,manufacturer,supplier,unit,pack_size,hsn_code,gst_rate,batch_no,purchase_price,sale_price,mrp_price,quantity,reorder_level,expiry_date
+abcd,Tablet,MEDMARK,Tahidul Islam,Box,10x10,300490,12,ABC123,25,30,35,100,10,2026-05-01
+efcdcdc,Capsule,MEDMARK,Tahidul Islam,Box,20x10,300420,18,XYZ456,50,60,70,200,20,2027-08-15

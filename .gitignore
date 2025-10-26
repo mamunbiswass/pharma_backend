@@ -1,0 +1,68 @@
+# -----------------------------------
+# ⚛️ React Project (.gitignore)
+# Clean setup for GitHub upload
+# -----------------------------------
+
+# Node dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build output (auto-generated)
+build/
+dist/
+out/
+.cache/
+.temp/
+
+# Environment files (keep private)
+.env
+.env.local
+.env.development.local
+.env.production.local
+.env.test.local
+
+# Logs
+logs/
+*.log
+
+# Test coverage
+coverage/
+
+# IDE / Editor config files
+.vscode/
+.idea/
+*.swp
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Miscellaneous
+*.pid
+*.seed
+*.tgz
+*.bak
+*.tmp
+
+# Backup / temporary folders
+tmp/
+temp/
+__MACOSX/
+.old/
+backup/
+
+# Optional: ignore TypeScript build cache (if using TS)
+*.tsbuildinfo
+
+# Optional: ignore Firebase / Netlify config (if deploying)
+.firebase/
+.netlify/
+.vercel/
+
+# Optional: ignore local build for deployment
+# If using React + Express combo
+frontend/build/
+backend/node_modules/
