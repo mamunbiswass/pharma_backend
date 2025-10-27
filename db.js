@@ -2,12 +2,12 @@ const mysql = require("mysql2/promise");
 
 // 🔹 Create pool with promise wrapper
 const pool = mysql.createPool({
-  host: "mysql.hostinger.in",
+  host: "srv1749.hstgr.io",
   user: "u174854131_pharmacy_db",
   password: "dka0H/A1",
   database: "u174854131_pharmacy_db",
   waitForConnections: true,
-  connectionLimit: 10,   // কতগুলো একসাথে connection allow করবে
+  connectionLimit: 100,   // কতগুলো একসাথে connection allow করবে
   queueLimit: 0          // unlimited queue
 });
 
