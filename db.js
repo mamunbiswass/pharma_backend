@@ -7,7 +7,7 @@ const pool = mysql.createPool({
   password: "dka0H/A1",
   database: "u174854131_pharmacy_db",
   waitForConnections: true,
-  connectionLimit: 100,   // কতগুলো একসাথে connection allow করবে
+  connectionLimit: 10000,   // কতগুলো একসাথে connection allow করবে
   queueLimit: 0          // unlimited queue
 });
 
